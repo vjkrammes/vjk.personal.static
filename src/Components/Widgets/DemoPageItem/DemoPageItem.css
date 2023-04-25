@@ -1,0 +1,45 @@
+.dpi__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dpi__bordered {
+  border-bottom: 1px dotted var(--base-color);
+  margin-bottom: 10px;
+}
+
+.dpi__label {
+  font-weight: 700;
+  flex: 1;
+  text-align: center;
+}
+
+.dpi__blank {
+  flex: 1;
+  display: none;
+}
+
+.dpi__content {
+  flex: 1;
+}
+
+@media screen and (min-width: 600px) {
+  .dpi__container {
+    flex-direction: row;
+  }
+
+  .dpi__label {
+    flex: 0.25;
+    text-align: start;
+  }
+
+  .dpi__blank {
+    flex: 0.25;
+    display: inline-flex;
+  }
+
+  .dpi__content {
+    flex: 0.75;
+  }
+}

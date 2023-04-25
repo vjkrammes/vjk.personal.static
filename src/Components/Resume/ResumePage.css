@@ -1,0 +1,43 @@
+.pagegrid {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  overflow: hidden;
+}
+
+.androidbutton {
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+  align-self: start;
+  justify-self: center;
+  padding: 3px 5px;
+  margin-top: 1rem;
+  background-color: var(--dark-color);
+  color: var(--white-color);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  font-family: var(--font-family);
+  padding: 3px 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.androidbutton:hover,
+.androidbutton:focus {
+  background-color: var(--light-color);
+  color: var(--black-color);
+}
+
+.resume {
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+  height: 100%;
+  z-index: 100;
+}
+
+object {
+  height: 100%;
+  width: 100%;
+}

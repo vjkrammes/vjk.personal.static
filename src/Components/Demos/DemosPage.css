@@ -1,0 +1,24 @@
+.dp__heading {
+  font-size: 150%;
+  text-align: center;
+}
+
+.dp__tagline {
+  margin-bottom: 2rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.dp__items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 320px);
+  grid-template-rows: auto;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+
+.dp__item {
+  border: 1px solid var(--base-color);
+  border-radius: 1rem;
+  padding: 1rem;
+}

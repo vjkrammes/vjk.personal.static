@@ -1,0 +1,25 @@
+.demop__slideshowbuttoncontainer {
+  margin-bottom: 1rem;
+  margin-inline: 1rem;
+}
+
+.demop__slideshowbutton {
+  padding-block: 5px;
+  width: 100%;
+  border: 1px solid var(--dark-color);
+  border-radius: 10px;
+  background-color: var(--base-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.demop__slideshowbutton:focus,
+.demop__slideshowbutton:hover {
+  background-color: var(--light-color);
+  color: var(--black-color);
+}
+
+.demop__body {
+  display: flex;
+  flex-direction: column;
+}

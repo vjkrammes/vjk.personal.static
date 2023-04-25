@@ -1,0 +1,30 @@
+.di__container {
+  position: relative;
+  aspect-ratio: 1/1;
+  max-width: 300px;
+  cursor: pointer;
+}
+
+.di__container::before,
+.di__container::after {
+  font-family: "Roboto Slab", "Times New Roman", serif;
+}
+
+.di__container::before {
+  content: attr(data-title);
+  font-size: 150%;
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+.di__container::after {
+  content: attr(data-blurb);
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 270px;
+}
