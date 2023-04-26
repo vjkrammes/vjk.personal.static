@@ -174,7 +174,7 @@ export default function HomePage() {
                 Finally, in 2015 after not doing any programming in a decade or
                 so, I needed to write some automation and workflow tools for my
                 (then) current position. I checked to see what was new in the C
-                world, and began learing the{" "}
+                world, and began learning the{" "}
                 <a
                   href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
                   target="_blank"
