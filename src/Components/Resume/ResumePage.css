@@ -1,15 +1,14 @@
 .pagegrid {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   height: 100%;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
   overflow: hidden;
+  gap: 1rem;
 }
 
 .androidbutton {
-  grid-row: 1 / 1;
-  grid-column: 1 / 1;
-  align-self: start;
+  flex: 0;
+  align-self: center;
   justify-self: center;
   padding: 3px 5px;
   margin-top: 1rem;
@@ -31,8 +30,7 @@
 }
 
 .resume {
-  grid-row: 1 / 1;
-  grid-column: 1 / 1;
+  flex: 1;
   height: 100%;
   z-index: 100;
 }
